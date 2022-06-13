@@ -1,0 +1,3 @@
+Jun 12 2022 20:27:04
+{"Number":2,"Message":"rmdir(C:\\home\\site\\wwwroot\\wp-content\\plugins\\all-in-one-wp-migration-6.77\\storage\\fccrnc0pcymx): Directory not empty","File":"C:\\home\\site\\wwwroot\\wp-content\\plugins\\all-in-one-wp-migration-6.77\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":60}
+

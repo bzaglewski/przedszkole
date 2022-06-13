@@ -1,0 +1,98 @@
+<step title="BackgroundTrace" date="2022-06-12T19:15:18.010" instance="a6e48b" url="/deploy" method="POST" >
+  <step title="Updating shutdown sentinel last write time" date="2022-06-12T19:15:18.104" SemaphoreCount="7" /><!-- duration: 0ms -->
+  <step title="LockFile &apos;C:\home\site\locks\deployments.lock&apos; acquired" date="2022-06-12T19:15:18.120" /><!-- duration: 0ms -->
+  <step title="Creating temporary deployment" date="2022-06-12T19:15:18.120" /><!-- duration: 31ms -->
+  <step title="Performing fetch based deployment" date="2022-06-12T19:15:18.166" >
+    <step title="Fetching changes." date="2022-06-12T19:15:18.276" /><!-- duration: 16ms -->
+    <step title="Before sending BuildRequestReceived status to /api/updatedeploystatus" date="2022-06-12T19:15:59.528" /><!-- duration: 0ms -->
+    <step title="DeploymentManager.Deploy(id:491daca4e89b6b9486eae9936ac5768ae44a7ce4)" date="2022-06-12T19:15:59.575" >
+      <step title="Collecting changeset information" date="2022-06-12T19:15:59.591" /><!-- duration: 31ms -->
+      <step title="Updating submodules" date="2022-06-12T19:15:59.622" >
+        <step title="Updating submodules." date="2022-06-12T19:15:59.684" /><!-- duration: 16ms -->
+      </step><!-- duration: 78ms -->
+      <step title="Preparing deployment for commit id &apos;491daca4e8&apos;." date="2022-06-12T19:15:59.747" /><!-- duration: 0ms -->
+      <step title="Determining deployment builder" date="2022-06-12T19:15:59.763" >
+        <step title="UseMSBuild16: True" date="2022-06-12T19:15:59.778" /><!-- duration: 16ms -->
+        <step title="Builder is BasicBuilder" date="2022-06-12T19:15:59.903" /><!-- duration: 0ms -->
+      </step><!-- duration: 141ms -->
+      <step title="Copying SSH keys" date="2022-06-12T19:15:59.919" /><!-- duration: 0ms -->
+      <step title="Building" date="2022-06-12T19:15:59.919" >
+        <step title="Generating deployment script." date="2022-06-12T19:15:59.966" /><!-- duration: 0ms -->
+        <step title="Generating deployment script" date="2022-06-12T19:15:59.966" >
+          <step title="Using the following command to generate deployment script: &apos;azure site deploymentscript -y --no-dot-deployment -r &quot;C:\home\site\repository&quot; -o &quot;C:\home\site\deployments\tools&quot; --basic --sitePath &quot;C:\home\site\repository&quot;&apos;." date="2022-06-12T19:16:00.044" /><!-- duration: 0ms -->
+          <step title="Executing external process" date="2022-06-12T19:16:00.059" type="process" path="starter.cmd" arguments="&quot;C:\Program Files (x86)\SiteExtensions\Kudu\97.40427.5713\bin\node_modules\.bin\kuduscript.cmd&quot; -y --no-dot-deployment -r &quot;C:\home\site\repository&quot; -o &quot;C:\home\site\deployments\tools&quot; --basic --sitePath &quot;C:\home\site\repository&quot;" >
+            <step title="Generating deployment script for Web Site" date="2022-06-12T19:16:01.529" /><!-- duration: 0ms -->
+            <step title="Generated deployment script files" date="2022-06-12T19:16:01.547" /><!-- duration: 0ms -->
+          </step><!-- duration: 1500ms -->
+          <step title="Saved cached version of the deployment script for command -y --no-dot-deployment -r &quot;C:\home\site\repository&quot; -o &quot;C:\home\site\deployments\tools&quot; --basic --sitePath &quot;C:\home\site\repository&quot;" date="2022-06-12T19:16:01.575" /><!-- duration: 0ms -->
+        </step><!-- duration: 1609ms -->
+        <step title="Running deployment command..." date="2022-06-12T19:16:01.638" /><!-- duration: 16ms -->
+        <step title="Command: &quot;C:\home\site\deployments\tools\deploy.cmd&quot;" date="2022-06-12T19:16:01.653" /><!-- duration: 0ms -->
+        <step title="Executing external process" date="2022-06-12T19:16:01.685" type="process" path="starter.cmd" arguments="&quot;C:\home\site\deployments\tools\deploy.cmd&quot;" >
+          <step title="Handling Basic Web Site deployment." date="2022-06-12T19:16:04.013" /><!-- duration: 0ms -->
+          <step title="Creating app_offline.htm" date="2022-06-12T19:16:04.638" /><!-- duration: 0ms -->
+          <step title="KuduSync.NET from: &apos;C:\home\site\repository&apos; to: &apos;C:\home\site\wwwroot&apos;" date="2022-06-12T19:16:04.638" /><!-- duration: 0ms -->
+          <step title="Deleting file: &apos;hostingstart.html&apos;" date="2022-06-12T19:16:04.669" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;.user.ini&apos;" date="2022-06-12T19:16:04.685" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;azuredeploy.json&apos;" date="2022-06-12T19:16:04.685" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;index.php&apos;" date="2022-06-12T19:16:04.700" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;license.txt&apos;" date="2022-06-12T19:16:04.716" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;readme.html&apos;" date="2022-06-12T19:16:04.716" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;readme.md&apos;" date="2022-06-12T19:16:04.735" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-activate.php&apos;" date="2022-06-12T19:16:04.747" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-blog-header.php&apos;" date="2022-06-12T19:16:04.747" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-comments-post.php&apos;" date="2022-06-12T19:16:04.747" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;wp-config-sample.php&apos;" date="2022-06-12T19:16:04.763" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-config.php&apos;" date="2022-06-12T19:16:04.763" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-cron.php&apos;" date="2022-06-12T19:16:04.778" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-links-opml.php&apos;" date="2022-06-12T19:16:04.778" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-load.php&apos;" date="2022-06-12T19:16:04.794" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-login.php&apos;" date="2022-06-12T19:16:04.794" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-mail.php&apos;" date="2022-06-12T19:16:04.810" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-settings.php&apos;" date="2022-06-12T19:16:04.810" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-signup.php&apos;" date="2022-06-12T19:16:04.825" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-trackback.php&apos;" date="2022-06-12T19:16:04.825" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;xmlrpc.php&apos;" date="2022-06-12T19:16:04.825" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;wp-admin\about.php&apos;" date="2022-06-12T19:16:04.841" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\admin-ajax.php&apos;" date="2022-06-12T19:16:04.841" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;wp-admin\admin-footer.php&apos;" date="2022-06-12T19:16:04.857" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\admin-functions.php&apos;" date="2022-06-12T19:16:04.857" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\admin-header.php&apos;" date="2022-06-12T19:16:04.872" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\admin-post.php&apos;" date="2022-06-12T19:16:04.872" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\admin.php&apos;" date="2022-06-12T19:16:04.888" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\async-upload.php&apos;" date="2022-06-12T19:16:04.903" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\authorize-application.php&apos;" date="2022-06-12T19:16:04.903" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\comment.php&apos;" date="2022-06-12T19:16:04.903" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;wp-admin\credits.php&apos;" date="2022-06-12T19:16:04.919" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\custom-background.php&apos;" date="2022-06-12T19:16:04.935" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\custom-header.php&apos;" date="2022-06-12T19:16:04.935" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;wp-admin\customize.php&apos;" date="2022-06-12T19:16:04.950" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\edit-comments.php&apos;" date="2022-06-12T19:16:04.950" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;wp-admin\edit-form-advanced.php&apos;" date="2022-06-12T19:16:04.966" /><!-- duration: 16ms -->
+          <step title="Copying file: &apos;wp-admin\edit-form-blocks.php&apos;" date="2022-06-12T19:16:04.982" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\edit-form-comment.php&apos;" date="2022-06-12T19:16:04.997" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\edit-link-form.php&apos;" date="2022-06-12T19:16:04.997" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\edit-tag-form.php&apos;" date="2022-06-12T19:16:05.013" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\edit-tags.php&apos;" date="2022-06-12T19:16:05.028" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\edit.php&apos;" date="2022-06-12T19:16:05.028" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\erase-personal-data.php&apos;" date="2022-06-12T19:16:05.044" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\export-personal-data.php&apos;" date="2022-06-12T19:16:05.044" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\export.php&apos;" date="2022-06-12T19:16:05.060" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\freedoms.php&apos;" date="2022-06-12T19:16:05.060" /><!-- duration: 0ms -->
+          <step title="Copying file: &apos;wp-admin\import.php&apos;" date="2022-06-12T19:16:05.075" /><!-- duration: 0ms -->
+          <step title="Omitting next output lines..." date="2022-06-12T19:16:05.091" /><!-- duration: 31ms -->
+          <step title="Processed 1701 files..." date="2022-06-12T19:16:24.889" /><!-- duration: 0ms -->
+          <step title="Finished successfully." date="2022-06-12T19:16:35.624" /><!-- duration: 20ms -->
+        </step><!-- duration: 33959ms -->
+        <step title="Running post deployment command(s)..." date="2022-06-12T19:16:35.686" /><!-- duration: 0ms -->
+        <step title="Triggering recycle (preview mode disabled)." date="2022-06-12T19:16:35.733" /><!-- duration: 16ms -->
+        <step title="Ignoring FS watcher based recycle request as this is a classic Windows app." date="2022-06-12T19:16:35.749" /><!-- duration: 0ms -->
+        <step title="Deployment successful. DEPLOYMENTINFO: deployer = GitHub, os = windows, sku = Free, siteName = przedszkolenr13, siteHostName = przedszkolenr13.azurewebsites.net, deploymentStatus = Success" date="2022-06-12T19:16:35.780" /><!-- duration: 0ms -->
+      </step><!-- duration: 35955ms -->
+    </step><!-- duration: 36299ms -->
+    <step title="Cleaning up temp files" date="2022-06-12T19:16:35.889" /><!-- duration: 0ms -->
+    <step title="Skip function trigger and logicapp sync because function is not enabled." date="2022-06-12T19:16:35.905" /><!-- duration: 0ms -->
+  </step><!-- duration: 77754ms -->
+  <step title="LockFile &apos;C:\home\site\locks\deployments.lock&apos; released" date="2022-06-12T19:16:35.921" /><!-- duration: 16ms -->
+  <step title="Deleting shutdown sentinel file" date="2022-06-12T19:16:35.936" SemaphoreCount="8" /><!-- duration: 0ms -->
+</step><!-- duration: 77942ms -->

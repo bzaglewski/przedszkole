@@ -1,0 +1,65 @@
+2022-06-12T19:15:59.6849238Z,Updating submodules.,68d5f1ac-ed11-4b8f-9137-4ff4ce5989f6,0
+2022-06-12T19:15:59.7474204Z,Preparing deployment for commit id '491daca4e8'.,59814210-3f0f-418e-8784-84d7220717e8,0
+2022-06-12T19:15:59.9662634Z,Generating deployment script.,61e43f9f-17c0-4d01-b91e-72381877b6df,0
+	2022-06-12T19:16:00.0443292Z,Using the following command to generate deployment script: 'azure site deploymentscript -y --no-dot-deployment -r "C:\home\site\repository" -o "C:\home\site\deployments\tools" --basic --sitePath "C:\home\site\repository"'.,,0
+	2022-06-12T19:16:01.5131623Z,Generating deployment script for Web Site,,0
+	2022-06-12T19:16:01.5290642Z,Generated deployment script files,,0
+2022-06-12T19:16:01.6069745Z,Running deployment command...,4fccc337-a5f0-49fe-b791-4fbd60d55b82,0
+	2022-06-12T19:16:01.6537907Z,Command: "C:\home\site\deployments\tools\deploy.cmd",,0
+	2022-06-12T19:16:04.0132779Z,Handling Basic Web Site deployment.,,0
+	2022-06-12T19:16:04.6227034Z,Creating app_offline.htm,,0
+	2022-06-12T19:16:04.6383151Z,KuduSync.NET from: 'C:\home\site\repository' to: 'C:\home\site\wwwroot',,0
+	2022-06-12T19:16:04.6539399Z,Deleting file: 'hostingstart.html',,0
+	2022-06-12T19:16:04.6851959Z,Copying file: '.user.ini',,0
+	2022-06-12T19:16:04.6851959Z,Copying file: 'azuredeploy.json',,0
+	2022-06-12T19:16:04.7008176Z,Copying file: 'index.php',,0
+	2022-06-12T19:16:04.7008176Z,Copying file: 'license.txt',,0
+	2022-06-12T19:16:04.7164443Z,Copying file: 'readme.html',,0
+	2022-06-12T19:16:04.7353217Z,Copying file: 'readme.md',,0
+	2022-06-12T19:16:04.7353217Z,Copying file: 'wp-activate.php',,0
+	2022-06-12T19:16:04.7476954Z,Copying file: 'wp-blog-header.php',,0
+	2022-06-12T19:16:04.7476954Z,Copying file: 'wp-comments-post.php',,0
+	2022-06-12T19:16:04.7633302Z,Copying file: 'wp-config-sample.php',,0
+	2022-06-12T19:16:04.7633302Z,Copying file: 'wp-config.php',,0
+	2022-06-12T19:16:04.7789474Z,Copying file: 'wp-cron.php',,0
+	2022-06-12T19:16:04.7789474Z,Copying file: 'wp-links-opml.php',,0
+	2022-06-12T19:16:04.7789474Z,Copying file: 'wp-load.php',,0
+	2022-06-12T19:16:04.7945740Z,Copying file: 'wp-login.php',,0
+	2022-06-12T19:16:04.7945740Z,Copying file: 'wp-mail.php',,0
+	2022-06-12T19:16:04.8102031Z,Copying file: 'wp-settings.php',,0
+	2022-06-12T19:16:04.8102031Z,Copying file: 'wp-signup.php',,0
+	2022-06-12T19:16:04.8258820Z,Copying file: 'wp-trackback.php',,0
+	2022-06-12T19:16:04.8258820Z,Copying file: 'xmlrpc.php',,0
+	2022-06-12T19:16:04.8414513Z,Copying file: 'wp-admin\about.php',,0
+	2022-06-12T19:16:04.8414513Z,Copying file: 'wp-admin\admin-ajax.php',,0
+	2022-06-12T19:16:04.8570769Z,Copying file: 'wp-admin\admin-footer.php',,0
+	2022-06-12T19:16:04.8570769Z,Copying file: 'wp-admin\admin-functions.php',,0
+	2022-06-12T19:16:04.8727061Z,Copying file: 'wp-admin\admin-header.php',,0
+	2022-06-12T19:16:04.8727061Z,Copying file: 'wp-admin\admin-post.php',,0
+	2022-06-12T19:16:04.8883291Z,Copying file: 'wp-admin\admin.php',,0
+	2022-06-12T19:16:04.8883291Z,Copying file: 'wp-admin\async-upload.php',,0
+	2022-06-12T19:16:04.9039535Z,Copying file: 'wp-admin\authorize-application.php',,0
+	2022-06-12T19:16:04.9039535Z,Copying file: 'wp-admin\comment.php',,0
+	2022-06-12T19:16:04.9195796Z,Copying file: 'wp-admin\credits.php',,0
+	2022-06-12T19:16:04.9352103Z,Copying file: 'wp-admin\custom-background.php',,0
+	2022-06-12T19:16:04.9352103Z,Copying file: 'wp-admin\custom-header.php',,0
+	2022-06-12T19:16:04.9508310Z,Copying file: 'wp-admin\customize.php',,0
+	2022-06-12T19:16:04.9508310Z,Copying file: 'wp-admin\edit-comments.php',,0
+	2022-06-12T19:16:04.9664570Z,Copying file: 'wp-admin\edit-form-advanced.php',,0
+	2022-06-12T19:16:04.9821457Z,Copying file: 'wp-admin\edit-form-blocks.php',,0
+	2022-06-12T19:16:04.9977096Z,Copying file: 'wp-admin\edit-form-comment.php',,0
+	2022-06-12T19:16:04.9977096Z,Copying file: 'wp-admin\edit-link-form.php',,0
+	2022-06-12T19:16:04.9977096Z,Copying file: 'wp-admin\edit-tag-form.php',,0
+	2022-06-12T19:16:05.0289641Z,Copying file: 'wp-admin\edit-tags.php',,0
+	2022-06-12T19:16:05.0289641Z,Copying file: 'wp-admin\edit.php',,0
+	2022-06-12T19:16:05.0446095Z,Copying file: 'wp-admin\erase-personal-data.php',,0
+	2022-06-12T19:16:05.0446095Z,Copying file: 'wp-admin\export-personal-data.php',,0
+	2022-06-12T19:16:05.0602121Z,Copying file: 'wp-admin\export.php',,0
+	2022-06-12T19:16:05.0602121Z,Copying file: 'wp-admin\freedoms.php',,0
+	2022-06-12T19:16:05.0758470Z,Copying file: 'wp-admin\import.php',,0
+	2022-06-12T19:16:05.0915433Z,Omitting next output lines...,,0
+	2022-06-12T19:16:24.8895329Z,Processed 1701 files...,,0
+	2022-06-12T19:16:35.6244803Z,Finished successfully.,,0
+2022-06-12T19:16:35.6712226Z,Running post deployment command(s)...,8273fe56-de10-4798-8f75-ec72fba3e14d,0
+2022-06-12T19:16:35.7337279Z,Triggering recycle (preview mode disabled).,81db56cd-556f-4c20-98b8-6bb91269492f,0
+2022-06-12T19:16:35.7806641Z,Deployment successful.,7fc7ee97-5e0b-48c0-831d-d34b47c42188,0

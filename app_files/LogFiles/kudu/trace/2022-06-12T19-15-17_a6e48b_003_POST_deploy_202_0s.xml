@@ -1,0 +1,7 @@
+<step title="Incoming Request" date="2022-06-12T19:15:17.838" instance="a6e48b" url="/deploy?scmType=ExternalGit&amp;isAsync=true" method="POST" type="request" pid="11612,2,9" Content-Length="93" Authorization="Bas..." Expect="100-continue" Host="przedszkolenr13.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/98.0.7.598" x-ms-request-id="76937bb4-be9f-43c0-8f41-eb4729c32976" CLIENT-IP="20.40.202.26:6208" X-ARR-LOG-ID="76937bb4-be9f-43c0-8f41-eb4729c32976" X-SITE-DEPLOYMENT-ID="przedszkolenr13" WAS-DEFAULT-HOSTNAME="przedszkolenr13.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.2" X-WAWS-Unencoded-URL="/deploy?scmType=ExternalGit&amp;isAsync=true" >
+  <step title="FetchHandler" date="2022-06-12T19:15:17.870" >
+    <step title="Starting FetchDeploy" date="2022-06-12T19:15:17.995" /><!-- duration: 0ms -->
+    <step title="Start deployment in the background" date="2022-06-12T19:15:17.995" /><!-- duration: 172ms -->
+  </step><!-- duration: 297ms -->
+  <step title="Outgoing response" date="2022-06-12T19:15:18.185" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/10.0" Location="https://przedszkolenr13.scm.azurewebsites.net/api/deployments/latest?deployer=GitHub&amp;time=2022-06-12_19-15-18Z" Retry-After="30" Cache-Control="private" X-AspNet-Version="4.0.30319" /><!-- duration: 0ms -->
+</step><!-- duration: 359ms -->

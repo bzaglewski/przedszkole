@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>491daca4e89b6b9486eae9936ac5768ae44a7ce4</id>
+  <author>Zubairuddin Mohammed</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>zmohammed@microsoft.com</authorEmail>
+  <message>Adding more details of wordpress in readme.md file</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2022-06-12T19:16:35.7962402Z</lastSuccessEndTime>
+  <receivedTime>2022-06-12T19:15:59.6067936Z</receivedTime>
+  <startTime>2022-06-12T19:15:59.7630465Z</startTime>
+  <endTime>2022-06-12T19:16:35.7962402Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+  <project_type>BASIC</project_type>
+  <vsproject_id></vsproject_id>
+</deployment>

@@ -1,0 +1,16 @@
+{
+	"name": "kadence-react-meta-controls",
+	"version": "1.0.0",
+	"private": true,
+	"main": "src/index.js",
+	"dependencies": {
+	},
+	"devDependencies": {
+	  "@wordpress/scripts": "^6.2.0"
+	},
+	"scripts": {
+	  "build": "wp-scripts build",
+	  "start": "wp-scripts start"
+	}
+  }
+  
