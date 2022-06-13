@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_przedszkolenr13_name": {
+            "value": null
+        },
+        "serverfarms_ASP_przedszkolenr13group_b778_name": {
+            "value": null
+        },
+        "servers_przedszkol_2901256262b043499fd2e0c57283dbc3_dbserver_name": {
+            "value": null
+        }
+    }
+}
